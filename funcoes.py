@@ -56,9 +56,9 @@ def verificar_float(dado):
             dado = input('Resposta Inválida, apenas números inteiros: ')
 
 def gerar_nota_fiscal(dicionario): 
-    valor = randint(1000,9999)
+    valor = str(randint(1000,9999))
     while (valor in dicionario): 
-        valor = randint(1000,9999)    
+        valor = str(randint(1000,9999))   
     return valor
 
 def mostrar_relatorio(cardapio_dados,filtro=''):

@@ -1,4 +1,5 @@
 ############# DICIONÁRIO PADRÃO PARA TESTAR AS FUNCIONALIDADES #############
+#6226
 cardapio_dados = {
     "12345": {
         "nome_exibicao": "Hamburguer de Siri",
@@ -39,37 +40,38 @@ cardapio_dados = {
 
 banco_fiscal = {
     "1001": {
-        "id_produto": "12345",              # Hambúrguer de Siri
-        "preco": 9.99,
+        "id_produtos": "12345",              # Hambúrguer de Siri
+        "total": 9.99,
         "data": "05/07/2026",
         "cpf": "111.111.111-11"             # Bob Esponja
     },
     "1002": {
-        "id_produto": "13579",              # Suco de Alga
-        "preco": 3.50,
+        "id_produtos": "13579",              # Suco de Alga
+        "total": 3.50,
         "data": "05/07/2026",
         "cpf": "111.111.111-11"             # Bob Esponja comprou um suco também
     },
     "1003": {
-        "id_produto": "54321",              # X-Salada
-        "preco": 15.00,
+        "id_produtos": "54321",              # X-Salada
+        "total": 15.00,
         "data": "04/07/2026",
         "cpf": "222.222.222-22"             # Patrick Estrela
     },
     "1004": {
-        "id_produto": "67890",              # Hambúrguer Colorido
-        "preco": 11.99,
+        "id_produtos": "67890",              # Hambúrguer Colorido
+        "total": 11.99,
         "data": "04/07/2026",
         "cpf": "666.666.666-66"             # Sandy Bochechas
     },
     "1005": {
-        "id_produto": "12345",              # Hambúrguer de Siri
-        "preco": 9.99,
+        "id_produtos": "12345",              # Hambúrguer de Siri
+        "total": 9.99,
         "data": "03/07/2026",
         "cpf": "333.333.333-33"             # Lula Molusco
     }
 }
 #7427
+#7870
 
 banco_login = {
     "111.111.111-11": {
